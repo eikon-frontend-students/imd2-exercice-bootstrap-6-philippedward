@@ -12,3 +12,41 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto";
+}
+
+@import "bootstrap/scss/bootstrap-grid";
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.Offset, .Order, .Nesting , .Background {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.page-header {
+  background: #83c5be;
+  padding: 16px;
+}
+
+.page-content {
+  background: #ffddd2;
+  padding: 16px;
+}
+
+.page-footer {
+  padding: 16px;
+  background: #006D77;
+}
